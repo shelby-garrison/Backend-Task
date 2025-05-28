@@ -38,5 +38,4 @@ This service helps identify and link customer contacts across multiple purchases
      
 The service would be live on port 3000.
 The sample Postman Collection used for testing has been added to the repository. Additionally, the `/identify` endpoint can be tested live at:
-**`https://backend-task-thxx.onrender.com/identify`**.
-
+**`https://backend-task-thxx.onrender.com/identify`**  **(KINDLY USE ANY TEST DATA DIFFERENT FROM THE SAMPLES IN THE POSTMAN COLLECTION TO VALIDATE THE `/IDENTIFY` ENDPOINT)**
