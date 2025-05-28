@@ -1,0 +1,1010 @@
+{
+	"info": {
+		"_postman_id": "dc35451d-b0d5-4d9f-ad36-0331173b90cf",
+		"name": "Bitespeed",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45352702",
+		"_collection_link": "https://codejeet.postman.co/workspace/Codejeet's-Workspace~79769509-564a-47eb-86ac-27b4747cb126/collection/45352702-dc35451d-b0d5-4d9f-ad36-0331173b90cf?action=share&source=collection_link&creator=45352702"
+	},
+	"item": [
+		{
+			"name": "Create Primary Contact",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"email\": \"lorraine@hillvalley.edu\", \r\n\"phoneNumber\": \"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/identify",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"identify"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create Primary Contact",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"email\": \"lorraine@hillvalley.edu\", \r\n\"phoneNumber\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/identify",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"identify"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "123"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7b-HtPwIFduvVX2Bw9wN3AvCCttJfw\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 28 May 2025 07:28:27 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"contact\": {\n        \"primaryContatctId\": 1,\n        \"emails\": [\n            \"lorraine@hillvalley.edu\"\n        ],\n        \"phoneNumbers\": [\n            \"123456\"\n        ],\n        \"secondaryContactIds\": []\n    }\n}"
+				},
+				{
+					"name": "Create Primary Contact",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"email\": \"lorraine@hillvalley.edu\", \r\n\"phoneNumber\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/identify",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"identify"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "123"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7b-HtPwIFduvVX2Bw9wN3AvCCttJfw\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 28 May 2025 07:41:19 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"contact\": {\n        \"primaryContatctId\": 1,\n        \"emails\": [\n            \"lorraine@hillvalley.edu\"\n        ],\n        \"phoneNumbers\": [\n            \"123456\"\n        ],\n        \"secondaryContactIds\": []\n    }\n}"
+				},
+				{
+					"name": "Create Primary Contact",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"email\": \"lorraine@hillvalley.edu\", \r\n\"phoneNumber\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/identify",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"identify"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "123"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7b-HtPwIFduvVX2Bw9wN3AvCCttJfw\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 28 May 2025 08:22:24 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"contact\": {\n        \"primaryContatctId\": 1,\n        \"emails\": [\n            \"lorraine@hillvalley.edu\"\n        ],\n        \"phoneNumbers\": [\n            \"123456\"\n        ],\n        \"secondaryContactIds\": []\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Create Secondary Contact",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"email\": \"mcfly@hillvalley.edu\" , \r\n\"phoneNumber\": \"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/identify",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"identify"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create Secondary Contact",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"email\": \"mcfly@hillvalley.edu\" , \r\n\"phoneNumber\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/identify",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"identify"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "147"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"93-4jKX5EUXUjD0V87Dw9AUqydXodc\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 28 May 2025 07:28:33 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"contact\": {\n        \"primaryContatctId\": 1,\n        \"emails\": [\n            \"lorraine@hillvalley.edu\",\n            \"mcfly@hillvalley.edu\"\n        ],\n        \"phoneNumbers\": [\n            \"123456\"\n        ],\n        \"secondaryContactIds\": [\n            2\n        ]\n    }\n}"
+				},
+				{
+					"name": "Create Secondary Contact",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"email\": \"mcfly@hillvalley.edu\" , \r\n\"phoneNumber\": \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/identify",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"identify"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "147"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"93-4jKX5EUXUjD0V87Dw9AUqydXodc\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 28 May 2025 08:22:29 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"contact\": {\n        \"primaryContatctId\": 1,\n        \"emails\": [\n            \"lorraine@hillvalley.edu\",\n            \"mcfly@hillvalley.edu\"\n        ],\n        \"phoneNumbers\": [\n            \"123456\"\n        ],\n        \"secondaryContactIds\": [\n            2\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "PARTIAL1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"lorraine@hillvalley.edu\", \r\n    \"phoneNumber\": null\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/identify",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"identify"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "PARTIAL1",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"lorraine@hillvalley.edu\", \r\n    \"phoneNumber\": null\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/identify",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"identify"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "149"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"95-zfxU7/qAhwfTirL4u2IoMpbeq7w\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 28 May 2025 07:28:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"contact\": {\n        \"primaryContatctId\": 1,\n        \"emails\": [\n            \"lorraine@hillvalley.edu\",\n            \"mcfly@hillvalley.edu\"\n        ],\n        \"phoneNumbers\": [\n            \"123456\"\n        ],\n        \"secondaryContactIds\": [\n            2,\n            3\n        ]\n    }\n}"
+				},
+				{
+					"name": "PARTIAL1",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"lorraine@hillvalley.edu\", \r\n    \"phoneNumber\": null\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/identify",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"identify"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "147"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"93-4jKX5EUXUjD0V87Dw9AUqydXodc\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 28 May 2025 08:22:35 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"contact\": {\n        \"primaryContatctId\": 1,\n        \"emails\": [\n            \"lorraine@hillvalley.edu\",\n            \"mcfly@hillvalley.edu\"\n        ],\n        \"phoneNumbers\": [\n            \"123456\"\n        ],\n        \"secondaryContactIds\": [\n            2\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "PARTIAL2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"mcfly@hillvalley.edu\", \r\n    \"phoneNumber\": null\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/identify",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"identify"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "PARTIAL2",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"mcfly@hillvalley.edu\", \r\n    \"phoneNumber\": null\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/identify",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"identify"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "147"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"93-4jKX5EUXUjD0V87Dw9AUqydXodc\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 28 May 2025 08:22:40 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"contact\": {\n        \"primaryContatctId\": 1,\n        \"emails\": [\n            \"lorraine@hillvalley.edu\",\n            \"mcfly@hillvalley.edu\"\n        ],\n        \"phoneNumbers\": [\n            \"123456\"\n        ],\n        \"secondaryContactIds\": [\n            2\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "PARTIAL3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"lorraine@hillvalley.edu\", \r\n    \"phoneNumber\": null\r\n    }"
+				},
+				"url": {
+					"raw": "localhost:3000/identify",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"identify"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "PARTIAL3",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": null, \r\n    \"phoneNumber\": \"123456\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/identify",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"identify"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "147"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"93-4jKX5EUXUjD0V87Dw9AUqydXodc\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 28 May 2025 08:22:51 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"contact\": {\n        \"primaryContatctId\": 1,\n        \"emails\": [\n            \"lorraine@hillvalley.edu\",\n            \"mcfly@hillvalley.edu\"\n        ],\n        \"phoneNumbers\": [\n            \"123456\"\n        ],\n        \"secondaryContactIds\": [\n            2\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "PRIMARY CONTACT 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"george@hillvalley.edu\", \r\n    \"phoneNumber\": \"919191\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/identify",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"identify"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "PRIMARY CONTACT 1",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"george@hillvalley.edu\", \r\n    \"phoneNumber\": \"919191\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/identify",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"identify"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "121"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"79-wDCfA7AMTmxMgcqsnkRPSyhrUnI\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 28 May 2025 08:23:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"contact\": {\n        \"primaryContatctId\": 3,\n        \"emails\": [\n            \"george@hillvalley.edu\"\n        ],\n        \"phoneNumbers\": [\n            \"919191\"\n        ],\n        \"secondaryContactIds\": []\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "PRIMARY CONTACT 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"biffsucks@hillvalley.edu\", \r\n    \"phoneNumber\": \"717171\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/identify",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"identify"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "PRIMARY CONTACT 2",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"biffsucks@hillvalley.edu\", \r\n    \"phoneNumber\": \"717171\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/identify",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"identify"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "124"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7c-zONl9RD/7ZiST96EyAWpS8x6bgw\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 28 May 2025 08:23:06 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"contact\": {\n        \"primaryContatctId\": 4,\n        \"emails\": [\n            \"biffsucks@hillvalley.edu\"\n        ],\n        \"phoneNumbers\": [\n            \"717171\"\n        ],\n        \"secondaryContactIds\": []\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "PRIMARY TO SECONDARY",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"george@hillvalley.edu\", \r\n    \"phoneNumber\": \"717171\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/identify",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"identify"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "PRIMARY TO SECONDARY",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"george@hillvalley.edu\", \r\n    \"phoneNumber\": \"717171\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:3000/identify",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"identify"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "158"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"9e-anODxoUvqsodfuIspIy4OJHGMCs\""
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 28 May 2025 08:23:12 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"contact\": {\n        \"primaryContatctId\": 3,\n        \"emails\": [\n            \"george@hillvalley.edu\",\n            \"biffsucks@hillvalley.edu\"\n        ],\n        \"phoneNumbers\": [\n            \"919191\",\n            \"717171\"\n        ],\n        \"secondaryContactIds\": [\n            4\n        ]\n    }\n}"
+				}
+			]
+		}
+	]
+}
